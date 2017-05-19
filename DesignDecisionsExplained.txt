@@ -4,6 +4,16 @@ MicroSuisse - Grace Hseu, Sarah Wang
 Our goal was to develop a framework for a highly configurable microsite where clients can 
 consume interactive visual content.
 
-- Panel views
-- Hidden sidebar
-- 
+Panel views - allows for easy and organized view of all provided data (four graphs)
+
+Hidden sidebar - Creates an accessible navigation bar, which can be hidden to provide 
+more room for the site content
+
+Data list - toggle between different graphs of original data, allows for clients to access 
+raw data with ease
+
+Header - Title for informing page name
+
+Footer - provides copyright and contact information for the developers
+
+Trending and Model - pages added just for function purposes but no content implemented
