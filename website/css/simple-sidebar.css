@@ -13,6 +13,7 @@
     padding: 5px;
     border-style: solid;
     border-radius: 4px;
+    overflow: scroll;
  }
  
  .tableauPlaceholderExpand {
@@ -30,7 +31,7 @@ footer {
 }
 
 a:active {
-    color: yellow;
+    color: #56ddff;
 }
 
 .inlineHead {
@@ -39,6 +40,20 @@ a:active {
 
 .btn-contain {
     padding: .2em;
+}
+
+.btn-primary {
+    padding: .8em;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    padding: .8em;
+    border-radius: 5px;
+}
+
+.btn-secondary {
+    padding: .3em;
 }
 
 .admin-menu {
@@ -57,6 +72,10 @@ a:active {
 
 .collaborators {
     display: inline;
+}
+
+.caraImg {
+    height: 20em;
 }
 
 /* Popup container */
