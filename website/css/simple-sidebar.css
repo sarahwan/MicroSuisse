@@ -10,6 +10,12 @@
 }
  
  .tableauPlaceholder {
+    padding: 5px;
+    border-style: solid;
+    border-radius: 4px;
+ }
+ 
+ .tableauPlaceholderExpand {
     height: 35em;
     padding: 5px;
     border-style: solid;
@@ -33,6 +39,77 @@ a:active {
 
 .btn-contain {
     padding: .2em;
+}
+
+.admin-menu {
+    bottom: 0px;
+}
+
+.collaborators {
+    padding: 1em;
+
+}
+
+.collaborators img {
+    float: left;
+    
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+#myPopup {
+    width: 250px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
 }
 
 /* Hamburger Menu Style */
@@ -62,6 +139,8 @@ a:active {
     -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
     transform: rotate(45deg) translate(-8px, -8px) ;
 }
+
+
 
  /*   TEMPLATE CODE   */
 
