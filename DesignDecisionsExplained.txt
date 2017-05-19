@@ -1,1 +1,9 @@
-# MicroSuisse
+Design Decision Document
+MicroSuisse - Grace Hseu, Sarah Wang
+
+Our goal was to develop a framework for a highly configurable microsite where clients can 
+consume interactive visual content.
+
+- Panel views
+- Hidden sidebar
+- 
