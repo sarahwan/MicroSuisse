@@ -8,11 +8,6 @@
     display: inline;
     font-size: 3em;
 }
-
-.col-lg-12 {
-    background-color: #d6d6d6;
-
-}
  
  .tableauPlaceholder {
     height: 35em;
@@ -24,6 +19,8 @@
 footer {
     background-color: #d6d6d6;
     padding: 2em;
+    width: 100%;
+    bottom: 0px;
 }
 
 a:active {
@@ -38,10 +35,39 @@ a:active {
     padding: .2em;
 }
 
+/* Hamburger Menu Style */
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
+.bar1, .bar2, .bar3 {
+    width: 25px;
+    height: 2px;
+    background-color: #A9A9A9;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, -6px) ;
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
  /*   TEMPLATE CODE   */
 
  body {
     overflow-x: hidden;
+    margin-bottom: 6em;
  }
 
 /* Toggle Styles */
