@@ -45,14 +45,17 @@ a:active {
     bottom: 0px;
 }
 
-.collaborators {
+.collaborator {
     padding: 1em;
 
 }
 
-.collaborators img {
+.collaborator img {
     float: left;
-    
+}
+
+.collaborators {
+    display: inline;
 }
 
 /* Popup container */
