@@ -78,6 +78,10 @@ a:active {
     height: 20em;
 }
 
+#before {
+    visibility: visible;
+}
+
 /* Popup container */
 .popup {
     position: relative;
