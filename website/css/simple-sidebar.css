@@ -4,7 +4,6 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
  
- 
 .topbar {
     display: inline;
     font-size: 3em;
@@ -29,6 +28,14 @@ footer {
 
 a:active {
     color: yellow;
+}
+
+.inlineHead {
+    display: inline-block;
+}
+
+.btn-contain {
+    padding: .2em;
 }
 
  /*   TEMPLATE CODE   */
